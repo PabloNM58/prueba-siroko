@@ -1,0 +1,21 @@
+.logo {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    background-image: url("./logo_siroko_image.png");
+    width: 28px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    background-image: url("./logo_siroko_text.png");
+    width: 145px;
+    height: 35px;
+  }
+}
